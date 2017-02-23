@@ -1,0 +1,157 @@
+@charset "utf-8";
+/* CSS Document */
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td, button,img{padding:0;margin:0;}
+body{background:#f2f6f9;font-size:14px; line-height: 20px;  font-family: "microsoft yahei", Simsun, Helvetica, Arial, sans-serif;color:#333;}
+fieldset, img{border:0;}
+input, label, select, option, textarea, button, fieldset, legend{font-size:14px; line-height: 20px; font-family:  "microsoft yahei",Verdana, Simsun, Helvetica, Arial, sans-serif;/*表单中的字体属性与表单以外的不一致，需要单独定义*/}
+ul,dl,dt,dd,li,ol{list-style:none;}
+*{ padding: 0; margin: 0;}
+
+/*网页布局*/
+.dis{ display:none}
+.fl{ float:left}
+.fr{ float:right !important;}
+.clear{ clear:both ;}
+.red{color:#F00;}
+.position_rel{ position:relative}
+.clearfloat{ float: none !important; }
+.fix{zoom:1;}
+.fix:after{ content:","; overflow:hidden; height:0; visibility:hidden; clear:both; display:block;}
+.blank10 {clear:both; height:10px; overflow:hidden; display:block;}
+.mt20{ margin-top:20px;}
+.mt10{ margin-top:10px;}
+.mr5{ margin-right: 5px;}
+.mr10{ margin-right: 10px;}
+.w{ width: 1040px; margin: 0 auto; clear: both;}
+.wp45{ padding: 30px 45px 0 45px;}
+
+*:focus {outline: none;}
+/*默认文字链接样式*/
+a{color:#333; text-decoration:none;  transition: all 0.3s; }
+a:hover{ color:#2a8de0; text-decoration:none;}
+
+.header{ width: 100%; height: 90px; background: #FFF;}
+.logo{ display: table-cell; vertical-align: middle; height: 90px;}
+.logo img{vertical-align:middle;}
+
+/*.subnav{ text-align: right;font-size: 12px; color: #989898; padding-top: 10px; padding-right:10px;}
+.subnav a{ font-size: 14px;color: #999;}
+
+.nav{ text-align: right; width: 100%; margin-top: 15px;}
+.nav a:nth-last-child(1){ margin-right:0 ;}
+.nav a{ display: inline-block; width: 80px; height: 41px; border-bottom: 4px solid #FFF; text-align: center; line-height: 41px; margin-right: 10px; color: #666;}
+.nav a:hover,.nav a.active{ color: #2e8ddd; border-bottom: 4px solid #2e8ddd;}
+
+.banner{ text-align: center; height: 499px; background: url(../images/in-banner.png) no-repeat center top;}*/
+
+.center{ background: #FFF; border-radius: 3px; position: relative;}
+
+.in-title h6{  color: #2b8ddf; font-size: 20px; font-family: "微软雅黑"; font-weight: normal;}
+.in-title h6 span{font-size: 18px; font-family: "微软雅黑",arial; color: #c0c0c0; font-weight: normal;}
+.in-title a{ float: right; display: inline-block; background: url(../images/dayang/more-icon.png) no-repeat 100% 60%; padding-right: 13px; font-size: 12px; color: #a4a4a4;}
+
+.about{ padding: 20px 0 30px 0; border-bottom: 1px solid #f1f1f1; margin-bottom: 35px;}
+.about dt{ float: left;}
+.about dd{ padding-left: 580px; color: #777; font-size: 15px; line-height: 28px;}
+.about dd span{ color: #f40; font-size: 18px;}
+
+.in-news{ padding: 30px 0 105px 0;}
+.in-news dl dt{ width: 198px; height: 140px; float: left;}
+.in-news dl dd{ width: 204px; height: 140px; background: #f3f6f8; float: left; padding: 0 24px;}
+.in-news dl dd b{ padding-top:15px ; display: block; font-size: 16px;}
+.in-news dl dd p{ line-height: 20px; padding: 10px 0;}
+.in-news dl dd a{ color: #666; font-size: 15px;}
+
+.recu-list{ margin: 23px 0 38px 0; border-top: 1px solid #f1f1f1;}
+.recu-list li{ height: 71px; line-height: 71px; padding: 17px 0; border-bottom: 1px solid #f1f1f1; background: url(../images/sj.png) no-repeat 99% 50%; color: #999;}
+.recu-list li .user-icon{ width: 71px; height: 71px; text-align: center; background: url(../images/dayang/usbg.jpg) no-repeat; display: inline-block; font-weight: bold; color: #888;}
+.recu-list li .user-zs{ width: 500px; padding-left:48px ; display: inline-block;}
+.recu-list li .user-ads{ width: 283px; display: inline-block;}
+.recu-list li .user-date{ display: inline-block;}
+
+.w-blue{ width: 100%; padding-top: 18px; margin-top: 21px; padding-bottom: 30px;
+background-image: -moz-linear-gradient(top, #0084d0, #0061b2); /* Firefox */
+background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #0084d0), color-stop(1, #0061b2)); /* Saf4+, Chrome */
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0084d0', endColorstr='#0061b2', GradientType='0'); /* IE*/}
+
+.corred{ color: #ff7f15 !important;}
+
+.news-box{ padding: 18px 19px; background: #f3f6f8; margin:23px 0 0 0 ; margin-bottom: 22px;}
+.news-box-p{ width: 540px; height: 362px; background: #FFF;}
+.news-box-p p{ font-size: 16px; padding:10px 15px 0 15px;}
+.news-box-p span{ float: right; font-size: 12px; color: #c5c5c5;}
+.news-box-p font{ font-size: 13px; padding: 0 15px; color: #b6b6b6; display: block}
+.news-box-list{ width: 305px; padding: 5px 24px; background: #FFF; }
+.news-box-list dl{ padding: 11px 0; border-bottom:1px solid #e9e9e9 ;}
+.news-box-list dt{ width: 35px; display: inline-block; float: left; height: 47px;}
+.news-box-list dt img{ margin-top:2px;}
+.news-box-list dd{ width: 270px; display: inline-block; float: left; height: 47px; position: relative;}
+.news-box-list dd span{ position: absolute; right: 0; top: 20px; color: #c5c5c5; font-size: 12px;}
+.news-box-list dl:nth-last-child(1){ border-bottom: none;}
+
+.news-l{ width: 347px;}
+.news-l dl{ width: 100%; background: #f6f7f8;margin-top: 20px;}
+.news-l dl dt{ float: left; margin-right: 18px; height: 129px;}
+.news-l dl dd{ padding: 18px; font-size: 16px; line-height: 24px; color: #777;}
+
+.news-c{ width: 255px;}
+.news-c ul{ margin: 10px 0 0 0px;}
+.news-c ul li{ height: 34px; border-bottom: 1px dashed #ddd; line-height: 34px;}
+.news-c ul li span{ float: right; font-size: 12px; color: #c5c5c5;}
+
+.news-r{ width: 255px;}
+.news-r ul{ margin: 10px 0 0 0px;}
+.news-r ul li{ height: 34px; border-bottom: 1px dashed #FFF; line-height: 34px;}
+.news-r ul li span{ float: right; font-size: 12px; color: #c5c5c5;}
+
+.footer{ width: 100%; height: 150px; background: #061b30;}
+.foot-nav{ text-align: center; color: #4b545b; font-size: 12px; padding-top: 40px;}
+.foot-nav a{ color: #4b545b; font-size: 14px;}
+
+.foot-line{ width: 21px; height: 2px; background: #4b545b; margin: 20px auto;}
+.copyright{ color: #4b545b;}
+
+
+.subbanner{ text-align: center;}
+.subbanner img{ width: 100%; display: block;}
+
+.page-pro{ border-bottom: 1px solid #ddd; padding-bottom: 20px; margin-bottom: 30px;}
+.page-pro h6{  color: #2b8ddf; font-size: 24px; font-family: "微软雅黑"; font-weight: normal; float: left;}
+.page-pro h6 span{font-size: 18px; font-family: "微软雅黑",arial; color: #c0c0c0; font-weight: normal;}
+.page-pro a{display: inline-block; font-size: 12px; color: #a4a4a4; margin: 0 10px;}
+.page-pro p{ text-align: right;}
+
+
+.left-nav{ width: 279px; height: 379px; border: 1px solid #f1f1f1; border-radius: 3px; position: relative;}
+.left-nav ul{ margin-top: 12px; margin-left: -1px; position: absolute; width: 281px;}
+.left-nav ul li{ height: 50px; }
+.left-nav ul li a{ display: block; background: url(../images/dayang/sub-icon.png) no-repeat 20px 50%; line-height: 50px; padding-left: 50px; color: #333; font-size: 18px;}
+.left-nav ul li a:hover,.left-nav ul li a.active{ background:#2a8de0 url(../images/dayang/sub-icon-hover.png) no-repeat 20px 50%; color: #FFF;}
+
+.right-page{ width: 600px; padding-bottom: 100px;}
+.page-tile{ font-size: 20px; line-height: 24px; color: #999; margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #f1f1f1;}
+.page-tile p{ font-size: 24px;}
+
+.page-page img{ margin-bottom: 20px;}
+.page-page p{ line-height: 28px; color: #777; font-size: 15px;}
+.page-page p span{ color: #F40; font-size: 18px;}
+
+.news-list dl{ height: 64px; border-bottom: 1px solid #e9e9e9; padding: 20px 0;}
+.news-list dl dt{ width: 64px; height: 64px; float: left; padding-right: 20px;}
+.news-list dl dt div{ width: 64px; height: 64px; text-align: center;  display: table-cell; vertical-align: middle;}
+.news-list dl dt div img{ vertical-align: middle;}
+.news-list dl dt .vd{ background: #ff4400;}
+.news-list dl dt .ig{ background: #ff7f15;}
+
+.page-btn{ text-align: right; margin-top: 35px;}
+.page-btn a{ display: inline-block; width: 30px; height: 30px; background: #f3f6f8; text-align: center; line-height: 30px;}
+.page-btn a.active,.page-btn a:hover{ background: #2b8ddf; color: #FFF;}
+.news-list dl dd a{ font-size: 16px;}
+.news-list dl dd span{ font-size: 13px; float: right; color: #C5C5C5;}
+.news-list dl dd p{ font-size: 13px; color: #b6b6b6; color: #c5c5c5; }
+
+
+
+
+
