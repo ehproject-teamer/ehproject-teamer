@@ -19,7 +19,7 @@ class MainController extends AdminbaseController {
     			L('PHP_RUN_MODE') => php_sapi_name(),
 				L('PHP_VERSION') => phpversion(),
     			L('MYSQL_VERSION') =>$mysql,
-    			L('PROGRAM_VERSION') => THINKCMF_VERSION . "&nbsp;&nbsp;&nbsp; [<a href='javascript:;' target='_blank'>博达软件</a>]",
+    			L('PROGRAM_VERSION') => THINKCMF_VERSION . "&nbsp;&nbsp;&nbsp; [<a href='javascript:;' target='_blank'>大洋软件</a>]",
     			L('UPLOAD_MAX_FILESIZE') => ini_get('upload_max_filesize'),
     			L('MAX_EXECUTION_TIME') => ini_get('max_execution_time') . "s",
     			L('DISK_FREE_SPACE') => round((@disk_free_space(".") / (1024 * 1024)), 2) . 'M',
