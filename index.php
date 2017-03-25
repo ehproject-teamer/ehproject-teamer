@@ -22,11 +22,11 @@ define("APP_DEBUG", true);
 //网站当前路径
 define('SITE_PATH', dirname(__FILE__)."/");
 //项目路径，不可更改
-define('APP_PATH', SITE_PATH . 'application/');
+define('APP_PATH', SITE_PATH . 'spider/');
 //项目相对路径，不可更改
 define('SPAPP_PATH',   SITE_PATH.'simplewind/');
 //
-define('SPAPP',   './application/');
+define('SPAPP',   './spider/');
 //项目资源目录，不可更改
 define('SPSTATIC',   SITE_PATH.'statics/');
 //定义缓存存放路径
